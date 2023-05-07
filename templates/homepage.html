@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Fun Temperature Game</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Fun Temperature Game</h1>
+    <img class='loseimage' src='{{ url_for("static",filename="images/image14.png") }}'>
+
+            <th>In this game, your goal is to guess which countries have a higher or lower temperature.</th>
+            <br>
+                    <a class='someth' href="/play/">Start Game</a>
+                    <br>
+
+
+</div>
+{% endblock %}

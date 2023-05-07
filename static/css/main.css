@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.content{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+table, td, th{
+    border: 1px solid #aaa;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    height: 100px;
+}
+
+td{
+    text-align: right;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+#content{
+    width: 70%;
+}
+
+.loseimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.someth{
+    position: relative;
+    top: 50px;
+    right: 0;
+    font-size: 50px;
+    border: 3px solid #73AD21;
+    border-width: 5px;
+    border-left: blue;
+    border-right: brown;
+}
+
+.somewh{
+    position: relative;
+    top: 200px;
+    right: 0;
+    font-size: 50px;
+    border: 3px solid #73AD21;
+    border-width: 5px;
+    border-left: blue;
+    border-right: brown;
+}
+
+.midtext{
+    position: relative;
+    top: 200px;
+    right: 0;
+    font-size: 50px;
+    border: 3px solid #73AD21;
+    border-width: 5px;
+    border-left: blue;
+    border-right: brown;
+}

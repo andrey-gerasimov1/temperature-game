@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Fun Temperature Game</title>
+{% endblock %}
+
+{% block body %}
+<div>
+    <h1 style="text-align: center">Fun Temperature Game</h1>
+
+    
+        <tr>
+            <h6 style="text-align: left; padding-left: 150px; font-size: 30px;top: 0px;position:fixed;">Region 1:<br>{{ country1 }}</h6>
+            <img style="padding-left: 200px;top: 150px;position:fixed;width:35%;height:35%;" src='{{ url_for("static",filename="images/1.png") }}'>
+            <h6 style="text-align: right; right: 150px; font-size: 30px;position:fixed; top: 0px;">Region 2:<br>{{ country2 }}</h6>
+            <img style="right: 200px;position:fixed; top: 150px;width:35%;height:35%;" src='{{ url_for("static",filename="images/2.png") }}'>
+            <br>
+            <br>
+        </tr>
+            <tr>
+                <br>
+                <h6 style="text-align: left; padding-left: 200px; font-size: 100px;top: 150px;position:fixed;">{{ temp1 }}°C</td>
+                <br>
+                <h6 style="text-align: right; right: 200px; font-size: 100px;position:fixed; top: 150px;"> ??? °C</td>
+                <br>
+                <h3 style="text-align: center; font-size: 30px; position: relative; top: 350px;">Is region 2 temperature higher or lower than region 1?</h3>
+                <br>
+                <h4 style="text-align: center; font-size: 50px; position: relative; top: 250px;">
+                    <a href="/play/higher/">Higher</a>
+                    <br>
+                    <a href="/play/lower/">Lower</a>
+                </h4>
+            </tr>
+            <br>
+            <h5 style="text-align:center; font-size: 50px; position: relative; top: 150px;">Score:</h5>
+            <h5 style="text-align:center; font-size: 50px; position: relative; top: 70px;">{{ score }}</h5>
+    
+    <th>{{ roundmsg }}</th>
+</div>
+{% endblock %}

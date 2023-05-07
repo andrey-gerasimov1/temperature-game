@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>You Lost</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">You lost</h1>
+    <img class='loseimage' src='{{ url_for("static",filename="images/image14.png") }}'>
+    
+
+            <h3>Your final score was: {{ score }}</h3>
+
+
+
+                    <a class='somewh'href="/play/">Play again</a>
+
+    
+    <h2>The temperature in {{ region1 }} is {{ tempTwo }} celsius</h2>
+</div>
+{% endblock %}
