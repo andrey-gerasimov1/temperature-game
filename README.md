@@ -1,4 +1,6 @@
-![image14](https://user-images.githubusercontent.com/126431978/236704840-50b6d793-0dd8-4c2c-a1fb-980ff8e243c5.png)
+![Screenshot (1568)](https://user-images.githubusercontent.com/126431978/236704953-2b7baf4c-7a7d-44b3-b273-d272c93693ae.png)
+![Screenshot (1569)](https://user-images.githubusercontent.com/126431978/236704965-0f381887-dc90-45df-82fa-7311cabc7bce.png)
+![Screenshot (1567)](https://user-images.githubusercontent.com/126431978/236704937-edab9c4f-4033-435d-9073-597cfa8735ba.png)
 
 Website Temperature Game
 
